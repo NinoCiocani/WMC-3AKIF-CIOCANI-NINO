@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form
+    action="mailto:lorenzd@spengergasse.at?subject=Formular.html"
+    method="post"
+    enctype="text/plain">
+
+    Vorname: *
+    <input type="text" name="Vorname" required>
+    <br><br>
+    Nachname: *
+    <input type="text" name="Nachname" required>
+    <br><br>
+
+    Geburtsdatum:
+    <input type="date" name="geburtsdatum">
+    <br><br>
+
+    Geschlecht:
+    <br><br>
+    <input type="radio" name="geschlecht" value="männlich">Männlich
+    <input type="radio" name="geschlecht" value="weiblich">weiblich
+    <input type="radio" name="geschlecht" value="divers">divers
+    <input type="radio" name="geschlecht" value="keineAngabe">Keine Angabe
+    <br><br>
+
+    Land: 
+    <select name="land">
+        <option value="Österreich">Österreich</option>
+        <option value="deutschland">Deutschland</option>
+        <option value="griechenland">Griechenland</option>
+        <option value="Georgien">Georgien</option>
+        <option value="ägypten">Ägypten</option>
+        <option value="rumänien">Rumänien</option>
+        <option value="keineAngabe">Keine Angabe</option>
+    </select>
+    <br><br>
+
+    Tel:
+    <input type="tel" name="telefonnummer"  pattern="[0-9]{+?11,15}">
+
+    Gewünschte Kontaktzeit:
+    <select name="gewünschteKontaktzeit" multiple>
+        <option value="vormittag">Vormittag</option>
+        <option value="nachmittag">Nachmittag</option>
+    </select>
+    <br><br>
+
+    Email: *
+    <input type="email" name="email" required>
+    <br><br>
+    
+    <label for="nachricht" style="vertical-align: top;">Nachricht: *</label>
+    <textarea name="nachricht" placeholder="Fügen Sie Ihre Nachricht ein" minlength="10" required></textarea>
+    <br><br>
+
+    <input type="checkbox" name="newsletterAbonnieren" value="ja">Newsletter Abonnieren
+    <br><br>
+
+    <input type="hidden" name="seite" value="Formular.html">
+
+    <input type="submit" value="Absenden">
+    <input type="reset" value="Formular zurücksetzen">
+</form>
+</body>
+</html>
