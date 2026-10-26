@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form 
+    action="mailto:mailto:lorenzd@spengergasse.at?subject=Form.2.html"
+    method="post"
+    enctype="text/plain">
+
+    Vorname:*   <input type="text" name="Vorname" required>
+    Nachname:*  <input type="text" name="Nachname required">
+    <br><br><br>
+    Geburtsdatum:
+    <input type="date" name="Geburtsdatum">
+    <br><br><br>
+    Geschlecht: 
+    <br>
+    männlich <input type="radio" name="geschlecht" value="männlich">
+    weiblich <input type="radio" name="geschlecht" value="weiblich">
+    divers <input type="radio" name="geschlecht" value="divers">
+    keine Angabe <input type="radio" name="geschlecht" value="keineAngabe">
+    <br><br>
+    Land:
+    <select name="land">
+        <option value="Österreich">Österreich</option>
+        <option value="Deutschland">Deutschland</option>
+        <option value="Ägypten">Ägypten</option>
+        <option value="Georgien">Georgien</option>
+        <option value="Rumänien">Rumänien</option>
+    </select>
+    <br><br>
+    Tel: <input type="tel" name="tel" pattern="[0-9]{11,15}">
+    <br><br>
+    Email: <input type="email" name="email">
+    <br><br>
+    gewünschte Kontaktzeit:
+    <select name="kontaktzeit" multiple>
+        <option value="Vormittag">Vormittag</option>
+        <option value="Mittag">Mittag</option>
+    </select>
+    <br><br>
+
+   Interesse:
+   <br>
+             <input type="checkbox" name="Interesse" value="Sport">Sport
+             <input type="checkbox" name="Interesse" value="Musichören">Music hören
+             <input type="checkbox" name="Interesse" value="malen">malen
+             <input type="checkbox" name="Interesse" id="tanzen">tanzen
+             <input type="checkbox" name="Interesse" id="singen">singen
+    <br><br>
+
+    <label for="Nachricht" style="vertical-align: top;">Nachricht:*</label>
+    <textarea name="Nachricht" id="Nachricht" placeholder="schreiben Sie Nachricht hier"minlength=10></textarea>
+<br><br>
+    <input type="checkbox" name="Newsletter" value="yes">Newsletter
+    <br>
+    <input type="hidden" name="seite" value="Formular.html">
+
+    <br><br>
+    <input type="submit" name="abschicken" id="abschicken" value="abschiecken">
+    <input type="reset" name="zurücksetzen" id="zurücksetzen" value="zurücksetzen">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
