@@ -1,0 +1,150 @@
+nav {
+    background-color: #16416b;
+    padding: 0.05rem;
+    margin-bottom: 1rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    }
+nav ul a:hover {
+    color: gold;
+}
+@media (max-width: 600px){
+    nav ul {
+    flex-direction: column;
+}
+}
+body {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+body>header,
+main>header{ 
+        background-color: steelblue;
+        display: flow-root;
+}
+header h1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    gap: 0.60rem;
+    padding-left: 2rem;
+}
+
+
+figure img{
+    width: 100%;
+}
+figure figcaption{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+main>header>p{
+    color: white;
+    padding-left: 2.3em;
+    font-size: 1.2rem;
+}
+
+
+
+
+section>h2 {
+    font-weight: 600;
+    
+}
+section>article h3{
+    font-weight: 600;
+    padding-left: 1rem;
+}
+section>article p{
+    padding-left: 1rem;
+}
+aside>figure{
+    display: flex;
+    background-color: lightgray;
+    border-left: 10px solid dodgerblue;
+    border-radius: 1rem;
+}
+aside>figure>img{
+width: 9rem;
+padding-top: 2rem;
+padding-left: 2rem;
+padding-bottom: 2rem;
+}
+aside>figure figcaption{
+    color: black;
+    text-align:center;
+    align-self: flex-end;
+    transform: translateY(50%);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.10rem
+    
+}
+main>form{width: 70%;
+background-color: lightgray;}
+main>input{
+    height: 0.50%;
+    
+}
+main>form>button{
+    width: 20%;
+   border-radius: 0%;
+   font-size: large;
+   color: white;
+   background-color: grey;
+    
+}
+.address{color: white;
+padding-left: 2rem;
+padding-bottom: 3rem;}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
